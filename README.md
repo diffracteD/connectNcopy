@@ -5,4 +5,9 @@ Connects to a server and copy files in local drive. Useful for unattended copyin
 3. User needs to provide file extension the program needs to look for (e.g. *_fractions.tiff).
 4. Enjoy your life while your data is rushing to you.
 
-NOTE: Paramiko libraries needed to connect to a doamin using ssh protocol. Install using: `pip install paramiko`  
+NOTE: Paramiko libraries needed to connect to a doamin using ssh protocol. Install using: `pip install paramiko`    
+
+NOTE II: Please report issues, if encountered.  
+
+Cheers  
+Abhisek
