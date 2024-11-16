@@ -17,13 +17,13 @@ def connect_and_copy_files():
     print(f"Connecting to {host} as {username}...")
     
     try:
-        # Create an SSH client and connect
+        # Open SSH client and connect
         ssh = paramiko.SSHClient()
         ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         ssh.connect(hostname=host, username=username, password=password)
         print("Connected successfully.")
         
-        # Create an SFTP session
+        # Start SFTP session
         sftp = ssh.open_sftp()
         
         # List files in the remote path
